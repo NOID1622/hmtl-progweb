@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Pendaftaran Calon Legislatif DPR RI</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_the_People%27s_Representative_Council_of_Indonesia.svg/1200px-Coat_of_arms_of_the_People%27s_Representative_Council_of_Indonesia.svg.png" alt="logo" width="180">
+    </center>
+    <table>
+    <center>
+    <td><fieldset >
+       
+        <legend>Informasi Personal</legend>
+        <table align="left">
+            <td><label for="nama">Nama lengkap: </label></td>
+            <td><input type="text" required></td>
+        </table>
+        <br><br>
+        <table align="left">
+            <td><label for="lahir">Tanggal Lahir: </label><br></td>
+            <td><input type="date" id="dob" name="dob" required ></td>
+        </table align="left">
+        <br><br>
+        <table align="left">
+            <td><label for="alamat">Alamat</label></td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </table>
+        <br><br><br><br><br><br><br><br><br><br>
+        <table align="left">
+            <td><label for="Jenis Kelamin">Jenis Kelamin: </label><input type="radio" name="jenis kelamin"><label for="laki2">laki</label>
+            <td><input type="radio" name="jenis kelamin"><label for="cewe">cewe</label></td>
+        </table>
+        <br><br>
+        <table><select id="alamat" name="alamar" required>
+            
+            <option value="female">Islam</option>
+            <option value="female">Kristen</option>
+            <option value="female">Katolik</option>
+            <option value="female">Hindu</option>
+            <option value="female">Buddha</option>
+            <option value="female">Konghucu</option>
+            <option value="female">Pilih Agama</option>
+        </select><br>
+        
+    </td>    
+    </table>
+    </fieldset>
+
+    <table>
+
+    <td><fieldset>
+    <legend>Lainnya</legend>  
+    <table align="left">
+        <td><label for="email">Email:</label><br></td>
+        <td><input type="email" id="email" name="email" required><br></td>
+    </table>
+    <br><br>
+    <table>
+        <td><label for="password">Password: </label></td>
+        <td><input type="password" name="pass" id="pass" placeholder="masukkan pass"></td>
+    </table> 
+    <br><br> 
+    <label for="komiisi">Pilihan Komisi</label>
+    <br><br>
+    <div>
+        <input type="checkbox" name="genre" id="genreid" value="1">Komisi 1
+        <input type="checkbox" name="genre" id="genreid" value="2">Komisi 2
+        <input type="checkbox" name="genre" id="genreid" value="3">Komisi 3
+    </div>
+    </fieldset></td>
+    </table>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    
+</body>
+</html>
